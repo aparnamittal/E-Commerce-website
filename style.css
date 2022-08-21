@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0%;
+    margin-top: 0px;
+    margin-right: 0px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 7%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* for making the nav bar in horizontal line   */
+.nav-list li {
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.nav-list li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+/* hover */
+.nav-list li a:hover {
+    color: yellow;
+}
+
+.icos {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.body {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    /* for writing on top of image*/
+    background: transparent;
+    top: 15rem;
+    left: 5rem;
+    bottom: 15rem;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#line {
+    bottom: 10rem;
+    top: 19rem;
+}
+
+.button {
+    position: absolute;
+    top: 22rem;
+    left: 20rem;
+    bottom: 0;
+    background-color: rgb(246, 179, 55);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px rgb(250, 221, 0);
+}
+
+.aboutus {
+    display: flex;
+    /* this is for writing content side of image */
+    color: gold;
+}
+
+/* this is for align content or items on only right side  */
+.content {
+    position: absolute;
+    right: 10rem;
+    width: 500px;
+    padding: 10px;
+    top: 52rem;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+}
+
+#about {
+    color: gold;
+}
+
+.review {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer {
+    margin-top: 0px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+    /* this is used for applying to all the column */
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.col-1 a:hover {
+    color: yellow;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* CSS style to place three div side by side */
+.container .box {
+    width: 1000px;
+    margin: 50px;
+    display: table;
+}
+
+.container .box .box-row {
+    display: table-row;
+}
+
+.container .box .box-cell {
+    display: table-cell;
+    width: 33%;
+    padding: 10px;
+}
+
+.container .box .box-cell.box1 {
+    border: 1px solid yellow;
+    height: 120px;
+    width: 40rem;
+    background-color: orange;
+    box-shadow: 5px 5px 6px 3px yellow;
+    color: black;
+    border-radius: 9px;
+    margin-left: 20px;
+    margin: auto;
+}
+
+.container .box .box-cell.box2 {
+    border: 1px solid green;
+    height: 120px;
+    width: 50rem;
+    margin-left: 25rem;
+    color: black;
+    background-color: yellow;
+    box-shadow: 5px 5px 6px 3px green;
+    border-radius: 9px;
+    margin: auto;
+}
+
+.container .box .box-cell.box3 {
+    border: 1px solid blue;
+    height: 120px;
+    width: 50rem;
+    margin-left: 40rem;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 6px 3px blue;
+    color: black;
+    border-radius: 9px;
+    margin: auto;
+}
+
+.container .box .box-cell.box4 {
+    border: 1px solid rgb(203, 45, 203);
+    height: 120px;
+    width: 50rem;
+    background-color: rgb(62, 169, 236);
+    box-shadow: 5px 5px 6px 3px rgb(203, 45, 203);
+    color: black;
+    border-radius: 9px;
+    margin-left: 20px;
+    margin: auto;
+}
+
+
+/* till here CSS style to place three div side by side */
+
+
+
+
+
+.toggle-button {
+    /* this is for creating nav bar button =_*/
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    /* this is for creating nav bar button */
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* this is for creating nav bar button */
+@media(max-width:800px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-list {
+        display: none;
+        /* display: none; */
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        text-align: center;
+    }
+
+    .nav-list li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+}

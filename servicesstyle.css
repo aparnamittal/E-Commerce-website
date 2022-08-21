@@ -1,0 +1,61 @@
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    color: rgb(93, 197, 232);
+}
+
+.text {
+    position: absolute;
+    width: 500px;
+    top: 17rem;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    margin-left: 50rem;
+}
+
+/* for align the whole text on left side  */
+.text1 {
+    position: absolute;
+    left: 10rem;
+    width: 500px;
+    padding: 10px;
+    top: 47rem;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    margin-right: 50rem;
+}
+
+.text2 {
+    position: absolute;
+    width: 500px;
+    top: 75rem;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    margin-left: 50rem;
+}
+
+.text3 {
+    position: absolute;
+    left: 10rem;
+    width: 500px;
+    padding: 10px;
+    top: 105rem;
+    border: 1px solid black;
+    color: white;
+    font-size: x-large;
+    margin-right: 50rem;
+}
+
+.left {
+    margin-left: 50rem;
+}
+
+.right {
+    margin-right: 30rem;
+}
