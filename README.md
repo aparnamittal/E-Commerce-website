@@ -12,7 +12,7 @@ E-Commerce website :- Technologies used are : HTML, CSS, Bootstrap.  * (only for
 ![image](https://user-images.githubusercontent.com/100208233/188328686-0b02e46a-61a0-42eb-bcc9-09191687c886.png)
 ![image](https://user-images.githubusercontent.com/100208233/188328693-23de03f1-b665-45f3-9db8-0d12e6b62895.png)
 
-## sevice page:
+## Sevice page:
 ![image](https://user-images.githubusercontent.com/100208233/188328714-e043a005-2057-4bc6-99b4-61b9c84cc0f0.png)
 ![image](https://user-images.githubusercontent.com/100208233/188328726-1e39363a-addf-4902-ba72-3ed08a0c86fa.png)
 
