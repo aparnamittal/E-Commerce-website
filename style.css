@@ -27,7 +27,7 @@ header {
     cursor: pointer;
 }
 
-/* for making the nav bar in horizontal line   */
+/* for making the nav bar in horizontal line */
 .nav-list li {
     display: inline-block;
     padding: 0px 20px;
@@ -172,7 +172,6 @@ form button {
     cursor: pointer;
 }
 
-
 /* CSS style to place three div side by side */
 .container .box {
     width: 1000px;
@@ -238,64 +237,19 @@ form button {
     margin: auto;
 }
 
-
 /* till here CSS style to place three div side by side */
 
-
-
-
-
-.toggle-button {
-    /* this is for creating nav bar button =_*/
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 31px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    /* this is for creating nav bar button */
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-/* this is for creating nav bar button */
-@media(max-width:800px) {
-    .toggle-button {
-        display: flex;
-    }
-
-    .nav-list {
-        display: none;
-        /* display: none; */
-        width: 100%;
-    }
-
+@media only screen and (max-width: 800px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        display: block;
     }
 
-    .nav-list ul {
-        width: 100%;
-        flex-direction: column;
+    .logo {
+        display: none;
     }
 
-    .nav-list li {
+    .navbar .nav-list {
+        display: block;
         text-align: center;
-    }
-
-    .nav-list li a {
-        padding: 0.5rem 1rem;
-    }
-
-    .nav-list.active {
-        display: flex;
     }
 }
