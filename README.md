@@ -2,6 +2,9 @@
 E-Commerce website :- Technologies used are : HTML, CSS, Bootstrap.  * (only for desktop)
 
 # Output screen:
+## Login Page:
+![image](https://user-images.githubusercontent.com/100208233/220709747-4828b472-a67a-40fd-b157-97329c42d7ea.png)
+
 ## Landing page:
 ![image](https://user-images.githubusercontent.com/100208233/188328557-dc36353d-8546-4901-a1f2-1d8061061e93.png)
 ![image](https://user-images.githubusercontent.com/100208233/188328580-5880a31c-926e-4cbb-9b79-f999f70efe3d.png)
